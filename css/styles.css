@@ -1,0 +1,276 @@
+
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1rem
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+	margin-top: 0
+}
+
+.debug {
+	background-color: tomato !important;
+	color: #fff !important
+}
+
+.hidden {
+	display: none
+}
+
+.btn-default {
+	border: 2px solid #007bff;
+	color: #007bff
+}
+
+.btn {
+	margin-left: 5px
+}
+
+.wizard .nav-tabs>li {
+	float: left;
+	margin-bottom: -1px
+}
+
+.wizard .nav>li {
+	position: relative;
+	display: block
+}
+
+.wizard .nav>li>a {
+	position: relative;
+	display: block
+}
+
+.wizard {
+	border: 2px solid #eee;
+	margin: 20px auto
+}
+
+.wizard .nav-tabs {
+	border-bottom-color: #eee;
+	margin: 40px auto;
+	margin-bottom: 0;
+	position: relative
+}
+
+.wizard .nav-tabs>li {
+	width: 20%
+}
+
+.wizard .nav-tabs>li a {
+	width: 15px;
+	height: 15px;
+	margin: 20px auto;
+	border-radius: 100%;
+	padding: 0
+}
+
+.wizard .nav-tabs>li a:hover {
+	background: transparent
+}
+
+.wizard .nav-tabs>li.active>a,
+.wizard .nav-tabs>li.active>a:hover,
+.wizard .nav-tabs>li.active>a:focus {
+	color: #555;
+	cursor: default;
+	border: 0;
+	border-bottom-color: transparent
+}
+
+.wizard .nav-tabs li.nav-item a span {
+	color: #212529
+}
+
+.wizard .nav-tabs li.nav-item span {
+	background-color: #fff;
+	border: 2px solid #eee
+}
+
+.wizard .nav-tabs li.nav-item.completed a span {
+	color: #fff
+}
+
+.wizard .nav-tabs li.nav-item.completed span {
+	background-color: #000;
+	border: 2px solid #000
+}
+
+.wizard .nav-tabs li.nav-item.disabled {
+	pointer-events: none
+}
+
+.wizard .nav-tabs li.nav-item.disabled span {
+	background-color: #fff;
+	border: 2px solid #eee
+}
+
+.wizard .nav-tabs li.nav-item.disabled a span {
+	color: #1c344c
+}
+
+.wizard .nav-tabs li span.round-tab {
+	width: 15px;
+	height: 15px;
+	line-height: 70px;
+	display: inline-block;
+	border-radius: 100px;
+	background: #fff;
+	border: 2px solid #eee;
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	font-size: 25px;
+	opacity: 1 !important
+}
+
+.wizard .nav-tabs li span.round-tab:hover {
+	color: red;
+	border: 2px solid red
+}
+
+.wizard .nav-tabs li span.round-tab i {
+	color: #1c344c
+}
+
+@media(max-width: 425px) {
+	.wizard .nav-tabs li span.round-tab {
+		font-size: 16px;
+		width: 50px;
+		height: 50px;
+		line-height: 50px
+	}
+}
+
+.wizard .tab-pane {
+	border: 0 solid #333;
+	position: relative;
+	padding: 45px
+}
+
+@media(max-width: 768px) {
+	.wizard .tab-pane {
+		padding: 25px
+	}
+}
+
+@media(max-width: 425px) {
+	.wizard .tab-pane {
+		padding: 15px
+	}
+}
+
+.wizard>div.wizard-inner {
+	position: relative
+}
+
+.wizard .wizard-inner .connecting-line {
+	height: 4px;
+	background: #eee;
+	position: absolute;
+	width: 80%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 50%;
+	z-index: 0 !important
+}
+
+.wizard .wizard-inner ul.nav.nav-tabs {
+	margin-top: 0
+}
+
+.wizard .wizard-inner li.active span.round-tab {
+	background: #000;
+	border: 2px solid #000;
+	color: #fff
+}
+
+.wizard .wizard-inner li.active span.round-tab i {
+	color: red
+}
+
+.wizard .wizard-inner li.completed:after {
+	content: " ";
+	position: absolute;
+	left: 46%;
+	opacity: 1;
+	margin: 0 auto;
+	bottom: 0;
+	border: 2px solid #000;
+	width: 100%;
+	top: 50%;
+	bottom: 50%
+}
+
+.wizard .wizard-inner li.disabled:after {
+	border: 2px solid #eee
+}
+
+.wizard .wizard-inner li.disabled:last-child:after {
+	border: 0
+}
+
+.wizard .wizard-inner li.active:after {
+	content: " ";
+	position: absolute;
+	left: 46%;
+	opacity: 1;
+	margin: 0 auto;
+	bottom: 0;
+	border: 2px solid #000;
+	width: 50%;
+	top: 50%;
+	bottom: 50%
+}
+
+.wizard .wizard-inner li.active:last-child:after {
+	border: 0
+}
+
+.wizard .wizard-inner li:last-of-type {
+	content: " "
+}
+
+@media(max-width: 585px) {
+	.wizard {
+		width: 90%;
+		height: auto !important
+	}
+	.wizard span.round-tab {
+		font-size: 16px;
+		width: 50px;
+		height: 50px;
+		line-height: 50px
+	}
+	.wizard .nav-tabs>li a {
+		width: 50px;
+		height: 50px;
+		line-height: 50px
+	}
+	.wizard li.active:after {
+		content: " ";
+		position: absolute;
+		left: 35%
+	}
+}
+
+
+/*# sourceMappingURL=styles.min.css.map */

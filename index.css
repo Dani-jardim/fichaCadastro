@@ -1,0 +1,60 @@
+.bg-index{
+  background-color:#00c1c6;
+  background-image: url(../img/bg-index.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: auto;
+  background-size: contain; 
+} 
+
+.bemVindo{
+  margin-top:370px;
+  margin-left:104px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bemVindo p{
+  font-size:20px;
+  color:#7c7c7c;
+  margin-bottom: 0rem;
+  font-weight:200;
+}
+
+.bemVindo h2{
+  color:#2a3e53;
+  font-size:32px;
+  margin-bottom:108px;
+}
+
+p.creditos-ficha{
+  font-size:11px;
+  padding-top:202px;
+  padding-bottom: 50px;
+
+}
+
+.btn-inicio-ficha{
+  cursor: pointer;
+  cursor:hand;
+  background-color: #56c6be;
+  color: #fff;
+  border-radius: 20px;
+   border-color: #55c6be;
+}
+
+.btn-inicio-ficha:hover{
+  cursor: pointer;
+  cursor:hand;
+  background-color: #489892;
+  color: #fff;
+  border-color: #489892;
+}
+.btn-inicio-ficha:active{
+  cursor: pointer;
+  cursor:hand;
+  background-color: #56c6be;
+  color: #fff;
+  border-radius: 20px;
+   border-color: #55c6be;
+}
